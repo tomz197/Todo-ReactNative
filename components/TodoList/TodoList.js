@@ -13,8 +13,7 @@ import {
   ScrollView
 } from "react-native";
 
-import SwipeGesture from "./test";
-
+kfi
 export default function TodoList() {
   const dispatch = useDispatch();
   const serverDomain = useSelector(state => state.serverDomain);

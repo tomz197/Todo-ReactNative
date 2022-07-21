@@ -94,7 +94,7 @@ export default function TodoItem(props) {
   );
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ 
   notStarted: {
     backgroundColor: "#fff",
   },

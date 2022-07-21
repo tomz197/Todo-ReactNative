@@ -1,2 +1,2 @@
-const serverDomain = (state = 'http://172.16.50.3:8080', action) => state;         
+const serverDomain = (state = 'http://192.168.1.63:8080', action) => state;         
 export default serverDomain;
