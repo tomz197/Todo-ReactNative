@@ -13,7 +13,7 @@ import {
   ScrollView
 } from "react-native";
 
-kfi
+
 export default function TodoList() {
   const dispatch = useDispatch();
   const serverDomain = useSelector(state => state.serverDomain);
@@ -38,7 +38,7 @@ export default function TodoList() {
     .then((data) => dispatch(loadTodos(data)))
     .catch((err) => console.error(err));
   }
-  
+
   useEffect(() => {
     getTodos();
   }, []);
